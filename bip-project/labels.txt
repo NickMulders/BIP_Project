@@ -1,7 +1,0 @@
-0 headache
-1 heartache
-2 fracture
-3 fever
-4 stomachache
-5 hand
-6 background
