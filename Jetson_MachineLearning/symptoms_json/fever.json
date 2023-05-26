@@ -1,0 +1,30 @@
+{
+    "Monday": {
+      "shape": "oval",
+      "color": "grey"
+    },
+    "Tuesday": {
+      "shape": "yellow",
+      "color": "round"
+    },
+    "Wednesday": {
+      "shape": "yellow",
+      "color": "round"
+    },
+    "Thursday": {
+      "shape": "oval",
+      "color": "grey"
+    },
+    "Friday": {
+      "shape": "yellow",
+      "color": "round"
+    },
+    "Saturday": {
+      "shape": "yellow",
+      "color": "round"
+    },
+    "Sunday": {
+      "shape": "oval",
+      "color": "grey"
+    }
+  }
