@@ -27,11 +27,11 @@ The Medicine Sorting System consists of the following components:
 - Jetson Nano: Responsible for scanning patient conditions and sending MQTT messages.
 - ESP32: Acts as a bridge, forwarding MQTT messages from the Jetson Nano to the Arduino ATMega via UART communication.
 - Arduino ATMega: Receives MQTT messages from the ESP32 and controls the Morobot's actions.
-- Morobot: Reads the MQTT messages received from the Arduino ATMega and accurately fills the medicine box using a suction pump mechanism. 
+- Morobot: Gets controlled by the Arduino ATMega and accurately fills the medicine box using a suction pump mechanism. 
 - Additionally, a Node-RED application runs in the background, collecting data and publishing it to a MongoDB database. The MongoDB visualization tool creates a HMI dashboard for monitoring and analysis.
 
 ![Mongodb_Dashboard](Node-Red/Mongodb_Dashboard.png)
 
 ## Acknowledgements
 
-We would like to express our gratitude to the Erasmus+ Blended Intensive Program for providing us with the opportunity to collaborate on this innovative project. Additionally, we extend our thanks to FH Technikum Wien, Lapin AMK, and Fontys ICT for their valuable contributions and unwavering support throughout the development process.
+We would like to express our gratitude to the Erasmus+ Blended Intensive Program for providing us with the opportunity to collaborate on this innovative project. Additionally, we extend our thanks to FH Technikum Wien, Lapin AMK, and Fontys ICT for their valuable contributions and support throughout the development process.
