@@ -17,7 +17,7 @@ The Medicine Sorting System is an advanced solution designed to streamline the m
 - Features a Morobot with expandable code, serving as the sorting robot for efficient medicine collection and placement.
 - Jetson Nano performs condition scanning and sends MQTT messages to the system.
 - ESP32 forwards MQTT messages from the Jetson Nano to an Arduino ATMega using UART communication.
-- Morobot reads the MQTT messages and fills the medicine box with the correct pills.
+- Morobot gets controlled by the Arduino ATMega and fills the medicine box with the correct pills.
 - Utilizes a suction pump mechanism in the Morobot to pick up and drop pills into the designated medicine box.
 
 ## Equipment and Flow
